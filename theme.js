@@ -19,7 +19,7 @@
 export default {
   colors: {
     text: '#000',
-    background: 'coral',
+    background: 'lightblue',
     primary: '#fff',
     secondary: '#000',
     secondaryText: '#fff',
