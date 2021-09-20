@@ -28,6 +28,7 @@ function ShoppingCartIcon() {
         padding: 0,
         '&:hover': {
           transform: 'scale(1.1)',
+          cursor: 'pointer'
         },
       }}>
       <FaShoppingCart size={30} />
