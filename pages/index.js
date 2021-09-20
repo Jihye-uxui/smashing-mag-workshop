@@ -61,12 +61,12 @@ export default function Home(props) {
             </Heading>
           </Fade>
         </Box>
-        <h1>Fill this page up with stuff</h1>
+        {/* <h1>Fill this page up with stuff</h1> */}
         {/** Step 2
          * Uncomment SliceZone component below so we can render the content for the home page
          */}
-        {/* <SliceZone slices={props.home.data.body} /> */}
-        {/* <Contact /> */}
+        <SliceZone slices={props.home.data.body} />
+        <Contact />
       </section>
     </Layout>
   );
